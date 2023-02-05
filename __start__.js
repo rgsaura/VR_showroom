@@ -104,7 +104,7 @@
                 useTouch: INPUT_SETTINGS.useTouch
             }),
             keyboard: INPUT_SETTINGS.useKeyboard ? new pc.Keyboard(window) : null,
-            mouse: INPUT_SETTINGS.useMouse ? new pc.Mouse(canvas) : null,
+            mouse: INPUT_SETTINGS.useMouse ? new pc.Mouse(canvas, { invertY: true }, { invertX: true }) : null,
             gamepads: INPUT_SETTINGS.useGamepads ? new pc.GamePads() : null,
             touch: INPUT_SETTINGS.useTouch && pc.platform.touch ? new pc.TouchDevice(canvas) : null
         };
