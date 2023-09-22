@@ -1,4 +1,4 @@
-# VR_showroom
+# VR showroom
 
 Here you have a VR showroom website you can copy and add your own take on it. It's built with PlayCanvas, so you will have to use their engine. Check it out live in https://vr.rgsaura.com.
 
